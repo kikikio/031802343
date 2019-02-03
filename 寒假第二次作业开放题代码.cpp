@@ -4,7 +4,7 @@
 #define T 150 //假定请求值分界线为150 
 int main()
 {
-	FILE * fp=fopen("output.txt","r");
+	FILE * fp=fopen("Request.txt","r");
 	struct date{
 		char name[10];
 		int x;	//请求值大小 
